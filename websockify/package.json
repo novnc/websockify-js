@@ -6,7 +6,7 @@
   "version": "0.8.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/kanaka/websockify.git"
+    "url": "git://github.com/novnc/websockify-js.git"
   },
   "files": ["../../docs/LICENSE.LGPL-3","websockify.js"],
   "bin": {

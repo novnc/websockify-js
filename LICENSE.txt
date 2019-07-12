@@ -7,8 +7,3 @@ docs/LICENSE.LGPL-3) with the following exceptions:
 
     include/web-socket-js/     : New BSD license (3-clause). Source code at
                                  https://github.com/gimite/web-socket-js
-
-    other/kumina.c             : Simplified BSD license (2 clause).
-                                 Original source at
-                                 https://github.com/kumina/wsproxy
-
