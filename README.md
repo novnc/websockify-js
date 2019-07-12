@@ -12,6 +12,12 @@ Note that this is the JavaScript version of websockify. The primary
 project is the [Python version of
 websockify](https://github.com/novnc/websockify).
 
+To run websockify-js:
+
+    cd websockify
+    npm install
+    ./websockify.js [options] SOURCE_ADDR:PORT TARGET_ADDR:PORT
+
 ### News/help/contact
 
 Notable commits, announcements and news are posted to
