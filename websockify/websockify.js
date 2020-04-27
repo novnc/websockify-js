@@ -86,7 +86,7 @@ new_client = function(client, req) {
         if (rs) {
           var rdelta = Math.floor(new Date().getTime()) - start_time;
           var rsdata = ('\'}' + rdelta + '}' + decodeBuffer(msg) + '\',\n');
-~         rs.write(rsdata);
+          rs.write(rsdata);
         }
 
         target.write(msg);
