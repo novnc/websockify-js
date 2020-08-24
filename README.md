@@ -60,7 +60,7 @@ and approve. Browsers generally don't give you the "trust certificate?" prompt
 by opening a WSS socket with invalid certificate, hence you need to have it
 acccept it by either of those two methods.
 
-If you have a commercial/valid SSL certificate with one ore more intermediate
+If you have a commercial/valid SSL certificate with one or more intermediate
 certificates, concat them into one file, server certificate first, then the
 intermediate(s) from the CA, etc. Point to this file with the `--cert` option
 and then also to the key with `--key`.
@@ -69,7 +69,7 @@ and then also to the key with `--key`.
 ### Websock Javascript library
 
 
-The `include/websock.js` Javascript library library provides a Websock
+The `include/websock.js` Javascript library provides a Websock
 object that is similar to the standard WebSocket object but Websock
 enables communication with raw TCP sockets (i.e. the binary stream)
 via websockify.
