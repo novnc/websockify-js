@@ -53,9 +53,9 @@ function do_send() {
 
 function do_recv() {
     //console.log(">> do_recv");
-    var arr = ws.rQshiftBytes(ws.rQlen()), str = "",
+    var uint8arr = ws.rQshiftBytes(ws.rQlen()), str = "",
         chr, cmd, code, value;
-
+    var arr = Array.from(uint8arr)
     Util.Debug("Received array '" + arr + "'");
     while (arr.length > 0) {
         chr = arr.shift();
