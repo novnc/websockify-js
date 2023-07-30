@@ -1,14 +1,17 @@
 {
   "author": "Joel Martin <github@martintribe.org> (http://github.com/kanaka)",
-  "name": "websockify",
-  "description": "websockify is a WebSocket-to-TCP proxy/bridge",
+  "name": "websockify-irc",
+  "description": "websockify-irc is a WebSocket-to-TCP proxy/bridge",
   "license": "LGPL-3.0",
   "version": "0.8.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/novnc/websockify-js.git"
+    "url": "git://github.com/MSNLD/websockify-irc-js.git"
   },
   "files": ["../../docs/LICENSE.LGPL-3","websockify.js"],
+  "scripts":{
+    "start": "node websockify.js $*"
+  },
   "bin": {
     "websockify": "./websockify.js"
   },
